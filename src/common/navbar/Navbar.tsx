@@ -47,11 +47,11 @@ export default function Navbar() {
             <Link href="/contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
 
             {/* Search Bar */}
-            <input
+            {/* <input
               type="text"
               placeholder="Search..."
               className="ml-4 px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-gray-400"
-            />
+            /> */}
           </div>
 
           {/* Right: Cart & Profile Icons */}
@@ -99,11 +99,11 @@ export default function Navbar() {
             <Link href="/products" className="block px-4 py-2 text-gray-700 hover:text-gray-900">Products</Link>
             <Link href="/about" className="block px-4 py-2 text-gray-700 hover:text-gray-900">About</Link>
             <Link href="/contact" className="block px-4 py-2 text-gray-700 hover:text-gray-900">Contact</Link>
-            <input
+            {/* <input
               type="text"
               placeholder="Search..."
               className="ml-4 px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-gray-400"
-            />
+            /> */}
           </div>
         )}
       </div>
