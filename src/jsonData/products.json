@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "productImage": "https://example.com/images/product1.jpg",
-    "productName": "Casual Cotton T-Shirt",
+    "productImage": "https://plus.unsplash.com/premium_photo-1661627681947-4431c8c97659?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "productName": "Casual Cotton Shirt",
     "productCategory": "Men's Clothing",
     "price": 19.99,
     "crossPrice": 29.99,
@@ -25,7 +25,7 @@
   },
   {
     "id": 2,
-    "productImage": "https://example.com/images/product2.jpg",
+    "productImage": "https://images.unsplash.com/photo-1603077399385-01143f096276?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG1lbnMlMjBkZW5pbSUyMGplYW5zfGVufDB8fDB8fHww",
     "productName": "Denim Jeans",
     "productCategory": "Men's Clothing",
     "price": 39.99,
@@ -48,7 +48,7 @@
   },
   {
     "id": 3,
-    "productImage": "https://example.com/images/product3.jpg",
+    "productImage": "https://images.unsplash.com/photo-1600102427329-d5b2cde7e162?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "productName": "Summer Floral Dress",
     "productCategory": "Women's Clothing",
     "price": 34.99,
@@ -71,7 +71,7 @@
   },
   {
     "id": 4,
-    "productImage": "https://example.com/images/product4.jpg",
+    "productImage": "https://images.unsplash.com/photo-1592158249887-ac6ae7921691?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "productName": "Leather Jacket",
     "productCategory": "Men's Clothing",
     "price": 89.99,
@@ -94,7 +94,7 @@
   },
   {
     "id": 5,
-    "productImage": "https://example.com/images/product5.jpg",
+    "productImage": "https://images.unsplash.com/photo-1465453869711-7e174808ace9?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "productName": "Sporty Sneakers",
     "productCategory": "Footwear",
     "price": 49.99,
@@ -117,7 +117,7 @@
   },
   {
     "id": 6,
-    "productImage": "https://example.com/images/product7.jpg",
+    "productImage": "https://images.unsplash.com/photo-1682745230951-8a5aa9a474a0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "productName": "Elegant Handbag",
     "productCategory": "Accessories",
     "price": 45.99,
@@ -140,7 +140,7 @@
   },
   {
     "id": 7,
-    "productImage": "https://example.com/images/product15.jpg",
+    "productImage": "https://images.unsplash.com/photo-1584865288642-42078afe6942?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "productName": "Slim Fit Chinos",
     "productCategory": "Men's Clothing",
     "price": 42.99,
@@ -163,7 +163,7 @@
   },
   {
     "id": 8,
-    "productImage": "https://example.com/images/product16.jpg",
+    "productImage": "https://images.unsplash.com/photo-1662333084914-3eea84762671?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "productName": "Classic Wristwatch",
     "productCategory": "Accessories",
     "price": 79.99,
@@ -185,7 +185,7 @@
   },
   {
     "id": 9,
-    "productImage": "https://example.com/images/product17.jpg",
+    "productImage": "https://images.unsplash.com/photo-1598443126060-d20c2f10bf0f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "productName": "Running Shorts",
     "productCategory": "Men's Clothing",
     "price": 29.99,
@@ -208,7 +208,7 @@
   },
   {
     "id": 10,
-    "productImage": "https://example.com/images/product18.jpg",
+    "productImage": "https://images.unsplash.com/photo-1622260614153-03223fb72052?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "productName": "Casual Backpack",
     "productCategory": "Accessories",
     "price": 54.99,
@@ -230,7 +230,7 @@
   },
   {
     "id": 11,
-    "productImage": "https://example.com/images/product19.jpg",
+    "productImage": "https://images.unsplash.com/photo-1667857381828-328f7c55e0ac?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "productName": "Winter Beanie",
     "productCategory": "Accessories",
     "price": 15.99,

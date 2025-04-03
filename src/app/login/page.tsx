@@ -41,6 +41,7 @@ export default function LoginPage() {
                             onChange={handleChange}
                             className="w-full p-2 border rounded mt-1"
                             required
+                            placeholder="Enter Email"
                         />
                     </label>
 
@@ -53,6 +54,7 @@ export default function LoginPage() {
                             onChange={handleChange}
                             className="w-full p-2 border rounded mt-1"
                             required
+                            placeholder="Enter Password"
                         />
                     </label>
 

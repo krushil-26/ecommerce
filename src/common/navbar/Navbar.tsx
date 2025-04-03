@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { ShoppingCart, Menu, X, User } from 'lucide-react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/redux/store';
 import { useRouter } from 'next/navigation';
@@ -12,12 +13,17 @@ export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement | null>(null);
   const router = useRouter();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setIsDropdownOpen(false);
+    setIsOpen(false)
+  }, [pathname]); 
 
   const cartItems: any[] = useSelector((state: RootState) => state.cart.cartItems);
   const totalQuantity = cartItems.reduce((total, item) => total + item.quantity, 0);
   const isLoggedIn = typeof window !== 'undefined' && localStorage.getItem("token");
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -92,9 +98,10 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {isOpen && (
-          <div className="md:hidden bg-white shadow-md py-4">
+        {/* Mobile Menu */}        
+      </div>
+      {isOpen && (
+          <div className="md:hidden border-t fixed w-full bg-white shadow-md py-4">
             <Link href="/" className="block px-4 py-2 text-gray-700 hover:text-gray-900">Home</Link>
             <Link href="/products" className="block px-4 py-2 text-gray-700 hover:text-gray-900">Products</Link>
             <Link href="/about" className="block px-4 py-2 text-gray-700 hover:text-gray-900">About</Link>
@@ -106,7 +113,6 @@ export default function Navbar() {
             /> */}
           </div>
         )}
-      </div>
     </nav>
   );
 }

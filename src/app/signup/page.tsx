@@ -52,6 +52,7 @@ const SignUpPage = () => {
                             value={formData.name}
                             onChange={handleChange}
                             required
+                            placeholder="Enter Name"
                             className="w-full mt-1 p-2 border rounded-md focus:ring focus:ring-blue-300"
                         />
                     </div>
@@ -64,6 +65,7 @@ const SignUpPage = () => {
                             value={formData.email}
                             onChange={handleChange}
                             required
+                            placeholder="Enter Email"
                             className="w-full mt-1 p-2 border rounded-md focus:ring focus:ring-blue-300"
                         />
                     </div>
@@ -76,6 +78,7 @@ const SignUpPage = () => {
                             value={formData.password}
                             onChange={handleChange}
                             required
+                            placeholder="Enter Password"
                             className="w-full mt-1 p-2 border rounded-md focus:ring focus:ring-blue-300"
                         />
                     </div>

@@ -19,7 +19,8 @@ const ProductCard = ({ product, index }: any) => {
             onClick={handleRedirect} // Click to navigate
         >
             <Image
-                src={"https://cdn.linenclub.com/media/catalog/product/cache/d8d099ed0f54be45d4eb2c71c1a3b40d/c/o/comph001pd01960-g3_0_1.jpg"}
+                // src={"https://plus.unsplash.com/premium_photo-1679056835084-7f21e64a3402?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
+                src={product?.productImage}
                 alt={product.productName}
                 width={200}
                 height={200}

@@ -29,7 +29,7 @@ export default function ShoppingCartPage() {
                         {cartItems.map((item: any) => (
                             <div key={item.id} className="flex items-center border p-4 rounded-lg shadow">
                                 <img 
-                                    src={"https://cdn.linenclub.com/media/catalog/product/cache/d8d099ed0f54be45d4eb2c71c1a3b40d/c/o/comph001pd01960-g3_0_1.jpg"} 
+                                    src={item?.productImage}
                                     alt={item.productName} 
                                     className="w-24 h-24 object-cover rounded" 
                                 />

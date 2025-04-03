@@ -69,7 +69,7 @@ export default function ProductDetails({ params }: { params: Promise<{ id: strin
                 <div className="flex">
                     <div className="relative group">
                         <img
-                            src={"https://cdn.linenclub.com/media/catalog/product/cache/d8d099ed0f54be45d4eb2c71c1a3b40d/c/o/comph001pd01960-g3_0_1.jpg"}
+                            src={product?.productImage}
                             alt={product.productName}
                             className="w-[350px] h-[400px] object-cover rounded-lg shadow-lg transition-transform group-hover:scale-105"
                         />

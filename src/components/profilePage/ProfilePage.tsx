@@ -68,6 +68,7 @@ export default function ProfilePage() {
                 type="text"
                 name="name"
                 className="w-full p-2 border rounded-md focus:ring focus:ring-blue-300"
+                placeholder="Enter Name"
               />
               <ErrorMessage name="name" component="div" className="text-red-500 text-sm" />
             </div>
@@ -78,6 +79,7 @@ export default function ProfilePage() {
               <Field
                 type="email"
                 name="email"
+                placeholder="Enter Email"
                 className="w-full p-2 border rounded-md focus:ring focus:ring-blue-300"
               />
               <ErrorMessage name="email" component="div" className="text-red-500 text-sm" />
@@ -93,6 +95,7 @@ export default function ProfilePage() {
               <Field
                 type="password"
                 name="oldPassword"
+                placeholder="Enter Old Password"
                 className="w-full p-2 border rounded-md focus:ring focus:ring-blue-300"
               />
               <ErrorMessage name="oldPassword" component="div" className="text-red-500 text-sm" />
@@ -104,6 +107,7 @@ export default function ProfilePage() {
               <Field
                 type="password"
                 name="newPassword"
+                placeholder="Enter New Password"
                 className="w-full p-2 border rounded-md focus:ring focus:ring-blue-300"
               />
               <ErrorMessage name="newPassword" component="div" className="text-red-500 text-sm" />
@@ -115,6 +119,7 @@ export default function ProfilePage() {
               <Field
                 type="password"
                 name="confirmPassword"
+                placeholder="Enter Confirm Password"
                 className="w-full p-2 border rounded-md focus:ring focus:ring-blue-300"
               />
               <ErrorMessage name="confirmPassword" component="div" className="text-red-500 text-sm" />
