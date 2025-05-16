@@ -14,7 +14,7 @@ const ProductCard = ({ product, index }: any) => {
     return (
         <div
             key={index}
-            className="border rounded-lg p-4 shadow-lg hover:shadow-xl transition cursor-pointer"
+            className="border rounded-lg shadow-lg hover:shadow-xl transition cursor-pointer"
             data-aos="fade-up"
             onClick={handleRedirect} // Click to navigate
         >
@@ -24,15 +24,17 @@ const ProductCard = ({ product, index }: any) => {
                 alt={product.productName}
                 width={200}
                 height={200}
-                className="w-full h-48 object-cover rounded-lg"
+                className="w-full h-36 sm:h-48 object-cover rounded-t-lg"
             />
-            <h3 className="mt-3 text-lg font-semibold">{product.productName}</h3>
-            <p className="text-sm text-gray-500">{product.productCategory}</p>
-            <div className="flex items-center gap-2 mt-2">
-                <span className="text-xl font-bold text-red-500">${product.price}</span>
-                <span className="text-sm text-gray-400 line-through">${product.crossPrice}</span>
+            <div className="p-3 pt-1">
+                <p className="mt-1 text-yellow-500">⭐ {product.ratings}</p>
+                <h3 className="mt-1 text-md font-semibold">{product.productName}</h3>
+                <p className="text-sm text-gray-500">{product.productCategory}</p>
+                <div className="flex items-center gap-2 mt-2">
+                    <span className="text-lg sm:text-xl font-bold text-red-500">${product.price}</span>
+                    <span className="text-sm text-gray-400 line-through">${product.crossPrice}</span>
+                </div>
             </div>
-            <p className="text-yellow-500">⭐ {product.ratings}</p>
         </div>
     );
 };

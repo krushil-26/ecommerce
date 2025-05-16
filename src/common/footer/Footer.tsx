@@ -78,16 +78,16 @@ const Footer = () => {
             Follow Us
           </h3>
           <div className="flex gap-4">
-            <Link href="https://facebook.com" className="text-gray-400 hover:text-blue-500 text-xl">
+            <Link href="https://facebook.com" target="_blank" className="text-gray-400 hover:text-blue-500 text-xl">
               <FaFacebookF />
             </Link>
-            <Link href="https://twitter.com" className="text-gray-400 hover:text-blue-500 text-xl">
+            <Link href="https://twitter.com" target="_blank" className="text-gray-400 hover:text-blue-500 text-xl">
               <FaTwitter />
             </Link>
-            <Link href="https://instagram.com" className="text-gray-400 hover:text-blue-500 text-xl">
+            <Link href="https://instagram.com" target="_blank" className="text-gray-400 hover:text-blue-500 text-xl">
               <FaInstagram />
             </Link>
-            <Link href="https://youtube.com" className="text-gray-400 hover:text-blue-500 text-xl">
+            <Link href="https://youtube.com" target="_blank" className="text-gray-400 hover:text-blue-500 text-xl">
               <FaYoutube />
             </Link>
           </div>

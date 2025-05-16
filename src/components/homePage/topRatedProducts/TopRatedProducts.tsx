@@ -13,7 +13,7 @@ const TopRatedProducts = () => {
     return (
         <section className="py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center mb-6">
-                <h3 className="text-xl font-extrabold text-gray-800 uppercase border-b-4 border-blue-500 pb-2">
+                <h3 className="text-lg sm:text-xl font-extrabold text-gray-800 uppercase border-b-4 border-blue-500 pb-2">
                     Top Rated Products
                 </h3>
 
@@ -24,7 +24,7 @@ const TopRatedProducts = () => {
                     View All
                 </Link>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
                 {latestProducts.slice(0, 4).map((product: any, index) => (
                     <ProductCard product={product} index={index} key={index} />
                 ))}
